@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="122dp"
+    android:layout_height="140dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_marginStart="15dp"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_itemRecom"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/iv_dashboard"
+            android:scaleType="fitXY"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/item"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/corner_item_recom"
+            android:layout_gravity="bottom"
+            android:paddingStart="10dp">
+
+            <TextView
+                android:id="@+id/tv_itemRecom"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Pantai Anyer"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="@id/item"
+                app:layout_constraintStart_toStartOf="@id/item"
+                tools:layout_editor_absoluteX="10dp" />
+
+            <TextView
+                android:id="@+id/tv_alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jl. Raya Serang, Banten"
+                android:textSize="8sp"
+                android:fontFamily="@font/poppins"
+                android:textColor="#727070"
+                app:layout_constraintStart_toStartOf="@+id/tv_itemRecom"
+                app:layout_constraintTop_toBottomOf="@+id/tv_itemRecom" />
+
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:id="@+id/rating"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/tv_alamat"
+                app:layout_constraintTop_toBottomOf="@id/tv_alamat" />
+
+            <TextView
+                android:id="@+id/tv_jmlh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="(89)"
+                android:textColor="#727070"
+                android:textSize="8sp"
+                android:layout_marginStart="3dp"
+                app:layout_constraintBottom_toBottomOf="@+id/rating"
+                app:layout_constraintStart_toEndOf="@+id/rating"
+                app:layout_constraintTop_toBottomOf="@+id/tv_alamat"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+
+</androidx.cardview.widget.CardView>

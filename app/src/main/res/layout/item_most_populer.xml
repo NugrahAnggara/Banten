@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="109dp"
+    android:layout_marginTop="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_populer"
+            android:layout_width="122dp"
+            android:layout_height="107dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_rv_two" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_headPopuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Pantai Anyar"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="26dp"/>
+
+    <TextView
+        android:id="@+id/tv_alamatPopuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Jl. Raya Serang, Banten"
+        android:textStyle="bold"
+        android:textColor="#727070"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_headPopuler"
+        app:layout_constraintTop_toBottomOf="@+id/tv_headPopuler" />
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/rating_populer"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/tv_alamatPopuler"
+        app:layout_constraintTop_toBottomOf="@+id/tv_alamatPopuler" />
+
+    <TextView
+        android:id="@+id/tv_jmlhPopuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/poppins"
+        android:text="(89)"
+        android:textColor="#727070"
+        android:textSize="8sp"
+        app:layout_goneMarginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_populer"
+        app:layout_constraintStart_toEndOf="@+id/rating_populer"
+        app:layout_constraintTop_toTopOf="@+id/rating_populer"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/btn_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/arror_right"
+        app:layout_constraintBottom_toBottomOf="@+id/rating_populer"
+        app:layout_constraintStart_toEndOf="@+id/tv_alamatPopuler"
+        app:layout_constraintTop_toTopOf="@+id/tv_headPopuler"
+        app:layout_constraintVertical_bias="0.533" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

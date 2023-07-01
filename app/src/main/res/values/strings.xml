@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Uas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Gently toss everything together in the casserole dish until combined. Returnto oven and cook 15”. Remove fromoven and let stand 5 minutes beforeserving.</string>
+
+
+    <!--    data model -->
+    <string-array name="judul">
+        <item>Pantai Anyer</item>
+        <item>Pantai Bali</item>
+        <item>Pantai Anyer</item>
+        <item>Pantai Anyer</item>
+        <item>Pantai Anyer</item>
+        <item>Pantai Anyer</item>
+        <item>Pantai Anyer</item>
+        <item>Pantai Anyer</item>
+    </string-array>
+
+    <string-array name="alamat">
+        <item>Jl. Raya Serang,Banten</item>
+        <item>Jl. Raya Serang,Banten</item>
+        <item>Jl. Raya Serang,Banten</item>
+        <item>Jl. Raya Serang,Banten</item>
+        <item>Jl. Raya Serang,Banten</item>
+        <item>Jl. Raya Serang,Banten</item>
+        <item>Jl. Raya Serang,Banten</item>
+        <item>Jl. Raya Serang,Banten</item>
+        <item>Jl. Raya Serang,Banten</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>4.4</item>
+        <item>4.4</item>
+        <item>4.4</item>
+        <item>4.4</item>
+        <item>4.4</item>
+        <item>4.4</item>
+        <item>4.4</item>
+        <item>4.4</item>
+    </string-array>
+
+    <string-array name="jumlah">
+        <item>89</item>
+        <item>89</item>
+        <item>89</item>
+        <item>89</item>
+        <item>89</item>
+        <item>89</item>
+        <item>89</item>
+        <item>89</item>
+    </string-array>
+
+    <string-array name="foto">
+        <item>@drawable/image_recom</item>
+        <item>@drawable/image_recom</item>
+        <item>@drawable/image_recom</item>
+        <item>@drawable/image_recom</item>
+        <item>@drawable/image_recom</item>
+        <item>@drawable/image_recom</item>
+        <item>@drawable/image_recom</item>
+        <item>@drawable/image_recom</item>
+    </string-array>
+
+    <string-array name="desc">
+        <item>
+            Gently toss everything together in the casserole dish until combined. Return to oven and cook 15”. Remove from oven and let stand 5 minutes before serving.
+        </item>
+        <item>
+            Gently toss everything together in the casserole dish until combined. Return to oven and cook 15”. Remove from oven and let stand 5 minutes before serving.
+        </item>
+        <item>
+            Gently toss everything together in the casserole dish until combined. Return to oven and cook 15”. Remove from oven and let stand 5 minutes before serving.
+        </item>
+        <item>
+            Gently toss everything together in the casserole dish until combined. Return to oven and cook 15”. Remove from oven and let stand 5 minutes before serving.
+        </item>
+        <item>
+            Gently toss everything together in the casserole dish until combined. Return to oven and cook 15”. Remove from oven and let stand 5 minutes before serving.
+        </item>
+        <item>
+            Gently toss everything together in the casserole dish until combined. Return to oven and cook 15”. Remove from oven and let stand 5 minutes before serving.
+        </item>
+        <item>
+            Gently toss everything together in the casserole dish until combined. Return to oven and cook 15”. Remove from oven and let stand 5 minutes before serving.
+        </item>
+        <item>
+            Gently toss everything together in the casserole dish until combined. Return to oven and cook 15”. Remove from oven and let stand 5 minutes before serving.
+        </item>
+    </string-array>
+
+    <string-array name="image_two">
+        <item>@drawable/img_rv_two</item>
+        <item>@drawable/img_rv_two</item>
+        <item>@drawable/img_rv_two</item>
+        <item>@drawable/img_rv_two</item>
+        <item>@drawable/img_rv_two</item>
+        <item>@drawable/img_rv_two</item>
+        <item>@drawable/img_rv_two</item>
+        <item>@drawable/img_rv_two</item>
+    </string-array>
+</resources>
